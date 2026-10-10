@@ -1,0 +1,1021 @@
+Five-System Fault Detection Log
+
+Timestamp: 2026-10-10 16:18:54
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 85.66, 'vibration': 6.9} | Fault Score: 1.13 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 87.58, 'flow_rate': 34.15} | Fault Score: 2.52 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 31.45, 'oil_temperature': 47.55} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 29.26, 'voltage': 190.96} | Fault Score: 11.64 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 2.34, 'belt_speed': 43.0} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:18:55
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 89.13, 'vibration': 1.1} | Fault Score: 1.83 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 42.02, 'flow_rate': 36.22} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 53.8, 'oil_temperature': 70.14} | Fault Score: 2.93 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 29.42, 'voltage': 195.79} | Fault Score: 10.11 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 5.66, 'belt_speed': 29.13} | Fault Score: 1.17 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:18:56
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 64.13, 'vibration': 2.34} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 56.02, 'flow_rate': 49.77} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 21.68, 'oil_temperature': 58.17} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 10.29, 'voltage': 229.4} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 1.08, 'belt_speed': 36.26} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: NONE
+============================================================
+
+Timestamp: 2026-10-10 16:18:57
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 72.06, 'vibration': 8.7} | Fault Score: 3.4 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 85.04, 'flow_rate': 10.17} | Fault Score: 5.28 | Status: FAULT | Faults: ['Cooling temperature too high', 'Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 30.52, 'oil_temperature': 50.49} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 23.04, 'voltage': 195.61} | Fault Score: 6.98 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 4.82, 'belt_speed': 87.73} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:18:58
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 93.34, 'vibration': 4.16} | Fault Score: 2.67 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 46.96, 'flow_rate': 34.28} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 32.58, 'oil_temperature': 93.94} | Fault Score: 1.79 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 27.54, 'voltage': 228.33} | Fault Score: 2.77 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 2.31, 'belt_speed': 37.22} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:18:59
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 67.74, 'vibration': 1.72} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 42.81, 'flow_rate': 40.72} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 26.68, 'oil_temperature': 69.51} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 24.92, 'voltage': 218.25} | Fault Score: 1.46 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 3.38, 'belt_speed': 20.86} | Fault Score: 2.83 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:00
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 87.39, 'vibration': 4.26} | Fault Score: 1.48 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 86.03, 'flow_rate': 40.78} | Fault Score: 2.21 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 38.6, 'oil_temperature': 64.46} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 28.13, 'voltage': 224.79} | Fault Score: 3.06 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 4.62, 'belt_speed': 71.74} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:01
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 82.43, 'vibration': 2.37} | Fault Score: 0.49 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 34.18, 'flow_rate': 14.32} | Fault Score: 1.89 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 46.48, 'oil_temperature': 67.29} | Fault Score: 0.49 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 25.52, 'voltage': 209.17} | Fault Score: 3.7 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 1.66, 'belt_speed': 67.19} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:02
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 59.34, 'vibration': 7.72} | Fault Score: 1.44 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 64.85, 'flow_rate': 42.75} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 49.0, 'oil_temperature': 91.71} | Fault Score: 2.68 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 19.32, 'voltage': 225.31} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 3.93, 'belt_speed': 45.42} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:19:03
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 55.34, 'vibration': 4.01} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 63.48, 'flow_rate': 27.58} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 52.48, 'oil_temperature': 93.33} | Fault Score: 4.16 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 10.49, 'voltage': 225.37} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 1.52, 'belt_speed': 70.27} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:19:04
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 82.48, 'vibration': 7.82} | Fault Score: 2.14 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 49.78, 'flow_rate': 26.68} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 49.84, 'oil_temperature': 95.43} | Fault Score: 3.7 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 28.77, 'voltage': 238.54} | Fault Score: 3.38 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 3.21, 'belt_speed': 95.3} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:19:05
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 69.58, 'vibration': 8.69} | Fault Score: 3.38 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 38.4, 'flow_rate': 36.1} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 34.47, 'oil_temperature': 99.31} | Fault Score: 2.86 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 18.52, 'voltage': 206.08} | Fault Score: 2.97 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 7.78, 'belt_speed': 57.97} | Fault Score: 1.56 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:06
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 87.07, 'vibration': 1.52} | Fault Score: 1.41 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 74.41, 'flow_rate': 43.22} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 27.24, 'oil_temperature': 72.16} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 14.23, 'voltage': 191.83} | Fault Score: 7.72 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 2.6, 'belt_speed': 58.22} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:07
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 84.2, 'vibration': 6.24} | Fault Score: 0.84 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 81.77, 'flow_rate': 49.08} | Fault Score: 1.35 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 48.36, 'oil_temperature': 95.38} | Fault Score: 3.2 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 18.01, 'voltage': 235.79} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 9.99, 'belt_speed': 47.72} | Fault Score: 5.98 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:08
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 68.55, 'vibration': 9.41} | Fault Score: 4.82 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 62.16, 'flow_rate': 43.18} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 59.08, 'oil_temperature': 62.88} | Fault Score: 4.69 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 24.39, 'voltage': 232.97} | Fault Score: 1.2 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 6.61, 'belt_speed': 46.14} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:09
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 67.9, 'vibration': 4.36} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 33.21, 'flow_rate': 11.37} | Fault Score: 2.88 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 36.93, 'oil_temperature': 99.55} | Fault Score: 2.91 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 16.43, 'voltage': 210.19} | Fault Score: 1.6 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 9.43, 'belt_speed': 42.29} | Fault Score: 4.86 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:10
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 85.42, 'vibration': 1.93} | Fault Score: 1.08 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 68.6, 'flow_rate': 27.06} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 38.38, 'oil_temperature': 75.16} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 21.42, 'voltage': 207.68} | Fault Score: 2.44 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 4.13, 'belt_speed': 39.26} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:11
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 91.07, 'vibration': 6.48} | Fault Score: 2.21 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 70.48, 'flow_rate': 10.28} | Fault Score: 3.24 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 45.94, 'oil_temperature': 99.54} | Fault Score: 3.22 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 24.76, 'voltage': 206.12} | Fault Score: 4.34 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 2.32, 'belt_speed': 92.79} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:12
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 79.53, 'vibration': 7.46} | Fault Score: 0.92 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 89.91, 'flow_rate': 30.1} | Fault Score: 2.98 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 39.08, 'oil_temperature': 79.29} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 23.01, 'voltage': 226.12} | Fault Score: 0.51 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 1.59, 'belt_speed': 27.97} | Fault Score: 1.41 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:19:13
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 80.54, 'vibration': 6.09} | Fault Score: 0.11 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 69.01, 'flow_rate': 17.85} | Fault Score: 0.72 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 58.77, 'oil_temperature': 63.15} | Fault Score: 4.59 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 19.69, 'voltage': 192.2} | Fault Score: 7.6 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 6.14, 'belt_speed': 95.81} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:14
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 70.05, 'vibration': 2.36} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 55.64, 'flow_rate': 35.7} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 37.65, 'oil_temperature': 68.38} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 8.22, 'voltage': 197.71} | Fault Score: 5.76 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 8.62, 'belt_speed': 69.21} | Fault Score: 3.24 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:15
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 65.45, 'vibration': 8.3} | Fault Score: 2.6 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 74.72, 'flow_rate': 17.27} | Fault Score: 0.91 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 22.6, 'oil_temperature': 93.24} | Fault Score: 1.65 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 28.4, 'voltage': 191.52} | Fault Score: 11.03 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 6.77, 'belt_speed': 86.56} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:16
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 92.4, 'vibration': 1.2} | Fault Score: 2.48 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 77.82, 'flow_rate': 28.29} | Fault Score: 0.56 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 41.02, 'oil_temperature': 79.77} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 17.21, 'voltage': 245.51} | Fault Score: 0.17 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 9.54, 'belt_speed': 73.04} | Fault Score: 5.08 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:17
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 75.5, 'vibration': 1.78} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 42.48, 'flow_rate': 20.73} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 48.31, 'oil_temperature': 51.65} | Fault Score: 1.1 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 17.68, 'voltage': 218.39} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 9.64, 'belt_speed': 29.49} | Fault Score: 6.38 | Status: FAULT | Faults: ['Excessive conveyor vibration', 'Conveyor belt running slowly']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:18
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 57.25, 'vibration': 8.33} | Fault Score: 2.66 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 87.74, 'flow_rate': 22.97} | Fault Score: 2.55 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 26.93, 'oil_temperature': 61.74} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 12.23, 'voltage': 197.38} | Fault Score: 5.87 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 1.47, 'belt_speed': 82.33} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:19
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 74.81, 'vibration': 8.68} | Fault Score: 3.36 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 37.13, 'flow_rate': 28.96} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 33.13, 'oil_temperature': 78.09} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 10.43, 'voltage': 234.6} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 1.94, 'belt_speed': 63.01} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:20
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 60.52, 'vibration': 4.57} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 49.7, 'flow_rate': 49.9} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 56.81, 'oil_temperature': 52.9} | Fault Score: 3.94 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 13.16, 'voltage': 221.5} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 7.82, 'belt_speed': 30.46} | Fault Score: 2.55 | Status: FAULT | Faults: ['Excessive conveyor vibration', 'Conveyor belt running slowly']
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:19:21
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 76.61, 'vibration': 4.41} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 80.81, 'flow_rate': 39.17} | Fault Score: 1.16 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 30.95, 'oil_temperature': 79.34} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 10.64, 'voltage': 248.93} | Fault Score: 1.31 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 8.39, 'belt_speed': 70.84} | Fault Score: 2.78 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:22
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 60.74, 'vibration': 1.2} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 70.58, 'flow_rate': 46.52} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 57.39, 'oil_temperature': 44.77} | Fault Score: 4.13 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 13.53, 'voltage': 196.25} | Fault Score: 6.25 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 7.44, 'belt_speed': 68.4} | Fault Score: 0.88 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:23
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 57.21, 'vibration': 6.71} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 48.46, 'flow_rate': 11.74} | Fault Score: 2.75 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 24.95, 'oil_temperature': 88.44} | Fault Score: 0.69 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 27.01, 'voltage': 229.78} | Fault Score: 2.51 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 8.21, 'belt_speed': 90.73} | Fault Score: 2.42 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:19:24
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 81.3, 'vibration': 5.66} | Fault Score: 0.26 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 53.75, 'flow_rate': 37.8} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 29.9, 'oil_temperature': 83.91} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 17.75, 'voltage': 232.95} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 5.5, 'belt_speed': 83.7} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:25
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 83.31, 'vibration': 1.47} | Fault Score: 0.66 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 44.68, 'flow_rate': 30.55} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 40.6, 'oil_temperature': 68.97} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 17.78, 'voltage': 197.4} | Fault Score: 5.87 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 8.41, 'belt_speed': 71.56} | Fault Score: 2.82 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:26
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 72.34, 'vibration': 5.7} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 35.66, 'flow_rate': 12.78} | Fault Score: 2.41 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 48.3, 'oil_temperature': 56.55} | Fault Score: 1.1 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 16.08, 'voltage': 226.43} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 3.76, 'belt_speed': 72.3} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:19:27
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 74.02, 'vibration': 6.31} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 36.7, 'flow_rate': 17.79} | Fault Score: 0.74 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 27.66, 'oil_temperature': 98.21} | Fault Score: 2.64 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 8.66, 'voltage': 225.31} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 2.0, 'belt_speed': 82.33} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:19:28
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 73.51, 'vibration': 1.41} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 62.75, 'flow_rate': 30.83} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 25.95, 'oil_temperature': 50.39} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 10.62, 'voltage': 224.15} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 7.2, 'belt_speed': 95.4} | Fault Score: 0.4 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:29
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 63.49, 'vibration': 8.18} | Fault Score: 2.36 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 66.99, 'flow_rate': 16.31} | Fault Score: 1.23 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 24.24, 'oil_temperature': 59.96} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 17.37, 'voltage': 208.6} | Fault Score: 2.13 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 5.53, 'belt_speed': 27.06} | Fault Score: 1.59 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:30
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 94.96, 'vibration': 9.07} | Fault Score: 7.13 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 33.58, 'flow_rate': 20.04} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 21.87, 'oil_temperature': 99.4} | Fault Score: 2.88 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 9.89, 'voltage': 232.71} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 5.1, 'belt_speed': 41.06} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:31
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 59.56, 'vibration': 4.12} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 46.26, 'flow_rate': 10.76} | Fault Score: 3.08 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 28.65, 'oil_temperature': 97.69} | Fault Score: 2.54 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 25.76, 'voltage': 241.95} | Fault Score: 1.88 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 5.28, 'belt_speed': 32.43} | Fault Score: 0.51 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:19:32
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 88.79, 'vibration': 6.24} | Fault Score: 1.76 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 60.29, 'flow_rate': 31.76} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 21.45, 'oil_temperature': 46.91} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 28.02, 'voltage': 198.52} | Fault Score: 8.5 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 1.03, 'belt_speed': 43.36} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:33
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 56.03, 'vibration': 4.15} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 36.33, 'flow_rate': 28.31} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 42.29, 'oil_temperature': 51.76} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 13.19, 'voltage': 210.32} | Fault Score: 1.56 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 2.42, 'belt_speed': 82.72} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:34
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 82.0, 'vibration': 6.29} | Fault Score: 0.4 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 45.28, 'flow_rate': 15.11} | Fault Score: 1.63 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 44.06, 'oil_temperature': 91.64} | Fault Score: 1.33 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 9.47, 'voltage': 196.97} | Fault Score: 6.01 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 7.3, 'belt_speed': 21.61} | Fault Score: 3.28 | Status: FAULT | Faults: ['Excessive conveyor vibration', 'Conveyor belt running slowly']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:35
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 56.42, 'vibration': 4.2} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 53.21, 'flow_rate': 17.91} | Fault Score: 0.7 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 20.83, 'oil_temperature': 69.7} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 12.32, 'voltage': 191.39} | Fault Score: 7.87 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 9.89, 'belt_speed': 84.17} | Fault Score: 5.78 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:36
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 55.23, 'vibration': 6.36} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 30.2, 'flow_rate': 47.62} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 37.22, 'oil_temperature': 42.0} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 21.46, 'voltage': 217.9} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 4.21, 'belt_speed': 23.43} | Fault Score: 2.31 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:37
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 83.68, 'vibration': 1.8} | Fault Score: 0.74 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 81.47, 'flow_rate': 12.61} | Fault Score: 3.76 | Status: FAULT | Faults: ['Cooling temperature too high', 'Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 42.92, 'oil_temperature': 52.1} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 25.11, 'voltage': 222.41} | Fault Score: 1.55 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 2.0, 'belt_speed': 65.61} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:19:38
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 57.16, 'vibration': 8.94} | Fault Score: 3.88 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 50.48, 'flow_rate': 19.52} | Fault Score: 0.16 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 45.66, 'oil_temperature': 57.05} | Fault Score: 0.22 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 27.79, 'voltage': 219.43} | Fault Score: 2.89 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 6.95, 'belt_speed': 21.39} | Fault Score: 2.72 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:39
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 60.49, 'vibration': 8.67} | Fault Score: 3.34 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 30.49, 'flow_rate': 32.46} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 54.97, 'oil_temperature': 84.25} | Fault Score: 3.32 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 28.54, 'voltage': 247.49} | Fault Score: 4.1 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 1.37, 'belt_speed': 64.32} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:40
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 63.58, 'vibration': 1.89} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 43.71, 'flow_rate': 33.63} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 59.16, 'oil_temperature': 84.29} | Fault Score: 4.72 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 10.68, 'voltage': 202.67} | Fault Score: 4.11 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 4.85, 'belt_speed': 29.77} | Fault Score: 1.05 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:19:41
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 80.61, 'vibration': 5.54} | Fault Score: 0.12 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 57.18, 'flow_rate': 19.53} | Fault Score: 0.16 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 25.16, 'oil_temperature': 77.04} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 23.23, 'voltage': 190.41} | Fault Score: 8.81 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 6.6, 'belt_speed': 56.54} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:42
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 91.66, 'vibration': 8.69} | Fault Score: 5.71 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 55.09, 'flow_rate': 35.08} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 25.07, 'oil_temperature': 44.14} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 13.75, 'voltage': 228.98} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 4.54, 'belt_speed': 54.79} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:43
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 83.36, 'vibration': 2.24} | Fault Score: 0.67 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 37.83, 'flow_rate': 27.11} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 51.32, 'oil_temperature': 42.1} | Fault Score: 2.11 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 14.47, 'voltage': 193.62} | Fault Score: 7.13 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 3.25, 'belt_speed': 65.74} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:44
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 56.55, 'vibration': 7.22} | Fault Score: 0.44 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 79.5, 'flow_rate': 45.51} | Fault Score: 0.9 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 37.26, 'oil_temperature': 56.55} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 12.75, 'voltage': 194.24} | Fault Score: 6.92 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 3.26, 'belt_speed': 64.99} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:45
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 69.2, 'vibration': 4.49} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 79.31, 'flow_rate': 31.6} | Fault Score: 0.86 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 22.37, 'oil_temperature': 86.88} | Fault Score: 0.38 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 26.84, 'voltage': 231.0} | Fault Score: 2.42 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 5.97, 'belt_speed': 73.65} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:46
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 63.03, 'vibration': 8.99} | Fault Score: 3.98 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 71.17, 'flow_rate': 47.34} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 31.98, 'oil_temperature': 82.05} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 9.4, 'voltage': 230.28} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 4.7, 'belt_speed': 64.03} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:47
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 92.7, 'vibration': 8.66} | Fault Score: 5.86 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 37.43, 'flow_rate': 40.75} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 50.04, 'oil_temperature': 43.83} | Fault Score: 1.68 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 8.96, 'voltage': 217.05} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 4.71, 'belt_speed': 30.87} | Fault Score: 0.83 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:48
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 82.97, 'vibration': 4.45} | Fault Score: 0.59 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 79.09, 'flow_rate': 46.15} | Fault Score: 0.82 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 35.69, 'oil_temperature': 47.56} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 9.94, 'voltage': 220.15} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 7.07, 'belt_speed': 24.1} | Fault Score: 2.32 | Status: FAULT | Faults: ['Excessive conveyor vibration', 'Conveyor belt running slowly']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:49
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 86.51, 'vibration': 3.0} | Fault Score: 1.3 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 79.6, 'flow_rate': 28.64} | Fault Score: 0.92 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 39.29, 'oil_temperature': 57.41} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 20.78, 'voltage': 207.38} | Fault Score: 2.54 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 8.01, 'belt_speed': 34.14} | Fault Score: 2.19 | Status: FAULT | Faults: ['Excessive conveyor vibration', 'Conveyor belt running slowly']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:50
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 58.5, 'vibration': 1.93} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 74.76, 'flow_rate': 12.7} | Fault Score: 2.43 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 58.23, 'oil_temperature': 61.25} | Fault Score: 4.41 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 11.68, 'voltage': 204.47} | Fault Score: 3.51 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 3.58, 'belt_speed': 41.46} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:19:51
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 56.76, 'vibration': 1.8} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 83.89, 'flow_rate': 19.4} | Fault Score: 1.98 | Status: FAULT | Faults: ['Cooling temperature too high', 'Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 47.8, 'oil_temperature': 49.15} | Fault Score: 0.93 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 16.32, 'voltage': 210.17} | Fault Score: 1.61 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 5.36, 'belt_speed': 80.84} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:19:52
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 83.48, 'vibration': 7.91} | Fault Score: 2.52 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 40.53, 'flow_rate': 49.21} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 22.05, 'oil_temperature': 57.6} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 11.58, 'voltage': 236.32} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 9.09, 'belt_speed': 66.23} | Fault Score: 4.18 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:53
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 71.17, 'vibration': 6.99} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 69.9, 'flow_rate': 10.19} | Fault Score: 3.27 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 47.5, 'oil_temperature': 65.93} | Fault Score: 0.83 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 13.3, 'voltage': 212.24} | Fault Score: 0.92 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 6.87, 'belt_speed': 84.41} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:19:54
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 68.22, 'vibration': 9.2} | Fault Score: 4.4 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 56.42, 'flow_rate': 37.48} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 35.77, 'oil_temperature': 53.5} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 27.62, 'voltage': 201.79} | Fault Score: 7.21 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 1.36, 'belt_speed': 45.41} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:55
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 74.91, 'vibration': 3.83} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 66.12, 'flow_rate': 37.18} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 43.0, 'oil_temperature': 76.02} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 24.95, 'voltage': 236.68} | Fault Score: 1.47 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 2.81, 'belt_speed': 22.53} | Fault Score: 2.49 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:56
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 82.75, 'vibration': 9.77} | Fault Score: 6.09 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 78.32, 'flow_rate': 48.83} | Fault Score: 0.66 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 47.61, 'oil_temperature': 50.53} | Fault Score: 0.87 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 23.27, 'voltage': 222.97} | Fault Score: 0.63 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 7.17, 'belt_speed': 94.32} | Fault Score: 0.34 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:57
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 86.57, 'vibration': 9.66} | Fault Score: 6.63 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 47.95, 'flow_rate': 32.58} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 22.72, 'oil_temperature': 64.81} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 12.84, 'voltage': 191.64} | Fault Score: 7.79 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 8.11, 'belt_speed': 64.54} | Fault Score: 2.22 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:19:58
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 76.76, 'vibration': 9.6} | Fault Score: 5.2 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 83.74, 'flow_rate': 44.4} | Fault Score: 1.75 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 56.16, 'oil_temperature': 73.56} | Fault Score: 3.72 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 15.61, 'voltage': 231.05} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 8.96, 'belt_speed': 60.5} | Fault Score: 3.92 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:19:59
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 66.84, 'vibration': 2.15} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 83.27, 'flow_rate': 39.42} | Fault Score: 1.65 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 45.86, 'oil_temperature': 42.36} | Fault Score: 0.29 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 18.26, 'voltage': 241.75} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 3.44, 'belt_speed': 45.77} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:20:00
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 55.94, 'vibration': 3.65} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 45.81, 'flow_rate': 17.55} | Fault Score: 0.82 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 49.08, 'oil_temperature': 94.61} | Fault Score: 3.28 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 18.82, 'voltage': 209.2} | Fault Score: 1.93 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 3.8, 'belt_speed': 41.03} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:20:01
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 77.34, 'vibration': 3.57} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 45.72, 'flow_rate': 33.88} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 22.65, 'oil_temperature': 49.54} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 24.18, 'voltage': 231.42} | Fault Score: 1.09 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 9.49, 'belt_speed': 37.54} | Fault Score: 4.98 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:02
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 88.88, 'vibration': 1.64} | Fault Score: 1.78 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 48.5, 'flow_rate': 31.58} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 55.71, 'oil_temperature': 75.28} | Fault Score: 3.57 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 10.88, 'voltage': 212.58} | Fault Score: 0.81 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 8.21, 'belt_speed': 36.4} | Fault Score: 2.42 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:20:03
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 74.65, 'vibration': 3.04} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 76.08, 'flow_rate': 48.63} | Fault Score: 0.22 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 45.83, 'oil_temperature': 68.27} | Fault Score: 0.28 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 25.6, 'voltage': 242.88} | Fault Score: 1.8 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 6.48, 'belt_speed': 37.5} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:04
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 65.49, 'vibration': 6.12} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 40.64, 'flow_rate': 34.91} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 23.94, 'oil_temperature': 53.58} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 21.13, 'voltage': 241.93} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 7.38, 'belt_speed': 78.06} | Fault Score: 0.76 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:05
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 76.14, 'vibration': 6.81} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 43.42, 'flow_rate': 27.52} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 55.61, 'oil_temperature': 52.02} | Fault Score: 3.54 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 28.82, 'voltage': 202.92} | Fault Score: 7.44 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 3.5, 'belt_speed': 62.47} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:06
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 90.39, 'vibration': 2.88} | Fault Score: 2.08 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 79.42, 'flow_rate': 36.72} | Fault Score: 0.88 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 31.48, 'oil_temperature': 62.48} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 29.87, 'voltage': 239.16} | Fault Score: 3.94 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 7.66, 'belt_speed': 84.05} | Fault Score: 1.32 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:07
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 55.43, 'vibration': 2.29} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 87.4, 'flow_rate': 48.68} | Fault Score: 2.48 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 26.54, 'oil_temperature': 54.88} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 9.84, 'voltage': 235.86} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 2.11, 'belt_speed': 35.5} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:20:08
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 70.1, 'vibration': 8.2} | Fault Score: 2.4 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 40.19, 'flow_rate': 43.19} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 28.28, 'oil_temperature': 77.22} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 16.13, 'voltage': 224.54} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 8.35, 'belt_speed': 78.96} | Fault Score: 2.7 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:09
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 73.39, 'vibration': 8.0} | Fault Score: 2.0 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 57.42, 'flow_rate': 14.36} | Fault Score: 1.88 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 36.79, 'oil_temperature': 63.26} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 12.8, 'voltage': 198.43} | Fault Score: 5.52 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 9.88, 'belt_speed': 44.0} | Fault Score: 5.76 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:10
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 75.79, 'vibration': 7.57} | Fault Score: 1.14 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 81.56, 'flow_rate': 33.61} | Fault Score: 1.31 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 40.55, 'oil_temperature': 42.92} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 8.06, 'voltage': 247.88} | Fault Score: 0.96 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 4.63, 'belt_speed': 62.44} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:20:11
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 55.93, 'vibration': 9.69} | Fault Score: 5.38 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 31.07, 'flow_rate': 12.91} | Fault Score: 2.36 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 49.19, 'oil_temperature': 73.86} | Fault Score: 1.4 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 17.21, 'voltage': 229.0} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 9.83, 'belt_speed': 50.84} | Fault Score: 5.66 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:12
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 61.78, 'vibration': 4.39} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 78.14, 'flow_rate': 32.79} | Fault Score: 0.63 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 29.67, 'oil_temperature': 49.43} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 28.38, 'voltage': 211.05} | Fault Score: 4.51 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 4.89, 'belt_speed': 54.37} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:13
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 74.98, 'vibration': 8.61} | Fault Score: 3.22 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 44.79, 'flow_rate': 33.16} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 51.03, 'oil_temperature': 51.47} | Fault Score: 2.01 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 26.98, 'voltage': 243.56} | Fault Score: 2.49 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 7.35, 'belt_speed': 67.09} | Fault Score: 0.7 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:14
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 89.79, 'vibration': 1.26} | Fault Score: 1.96 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 85.34, 'flow_rate': 11.55} | Fault Score: 4.88 | Status: FAULT | Faults: ['Cooling temperature too high', 'Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 21.13, 'oil_temperature': 55.22} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 17.76, 'voltage': 204.04} | Fault Score: 3.65 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 5.04, 'belt_speed': 78.43} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:20:15
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 71.28, 'vibration': 5.37} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 34.0, 'flow_rate': 15.99} | Fault Score: 1.34 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 53.96, 'oil_temperature': 72.99} | Fault Score: 2.99 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 22.69, 'voltage': 206.86} | Fault Score: 3.06 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 7.45, 'belt_speed': 32.55} | Fault Score: 1.39 | Status: FAULT | Faults: ['Excessive conveyor vibration', 'Conveyor belt running slowly']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:16
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 83.08, 'vibration': 1.84} | Fault Score: 0.62 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 89.46, 'flow_rate': 18.05} | Fault Score: 3.54 | Status: FAULT | Faults: ['Cooling temperature too high', 'Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 33.28, 'oil_temperature': 98.72} | Fault Score: 2.74 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 24.89, 'voltage': 208.2} | Fault Score: 3.71 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 4.85, 'belt_speed': 62.01} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:17
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 78.14, 'vibration': 9.45} | Fault Score: 4.9 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 68.36, 'flow_rate': 17.84} | Fault Score: 0.72 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 34.47, 'oil_temperature': 41.17} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 23.01, 'voltage': 214.68} | Fault Score: 0.61 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 7.18, 'belt_speed': 92.01} | Fault Score: 0.36 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:18
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 56.34, 'vibration': 5.28} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 81.23, 'flow_rate': 37.03} | Fault Score: 1.25 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 51.66, 'oil_temperature': 90.86} | Fault Score: 3.39 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 10.01, 'voltage': 229.47} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 8.87, 'belt_speed': 24.94} | Fault Score: 5.75 | Status: FAULT | Faults: ['Excessive conveyor vibration', 'Conveyor belt running slowly']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:19
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 63.07, 'vibration': 9.23} | Fault Score: 4.46 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 67.76, 'flow_rate': 44.24} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 39.46, 'oil_temperature': 74.1} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 9.84, 'voltage': 207.31} | Fault Score: 2.56 | Status: FAULT | Faults: ['Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 9.59, 'belt_speed': 53.57} | Fault Score: 5.18 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:20
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 81.12, 'vibration': 4.75} | Fault Score: 0.22 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 59.64, 'flow_rate': 38.24} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 41.68, 'oil_temperature': 86.92} | Fault Score: 0.38 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 22.28, 'voltage': 243.45} | Fault Score: 0.14 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 4.03, 'belt_speed': 77.17} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:20:21
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 84.31, 'vibration': 9.78} | Fault Score: 6.42 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 41.64, 'flow_rate': 43.05} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 32.88, 'oil_temperature': 96.34} | Fault Score: 2.27 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 16.31, 'voltage': 234.71} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 3.29, 'belt_speed': 74.02} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:22
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 93.11, 'vibration': 1.67} | Fault Score: 2.62 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 36.31, 'flow_rate': 48.08} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 29.25, 'oil_temperature': 67.25} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 25.1, 'voltage': 219.63} | Fault Score: 1.55 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 7.13, 'belt_speed': 78.69} | Fault Score: 0.26 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:23
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 56.19, 'vibration': 4.95} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 39.87, 'flow_rate': 32.47} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 38.47, 'oil_temperature': 49.59} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 24.19, 'voltage': 248.68} | Fault Score: 2.32 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 6.53, 'belt_speed': 21.21} | Fault Score: 2.76 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:24
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 70.32, 'vibration': 4.1} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 65.53, 'flow_rate': 39.08} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 47.71, 'oil_temperature': 44.71} | Fault Score: 0.9 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 28.14, 'voltage': 206.58} | Fault Score: 5.88 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 4.02, 'belt_speed': 99.26} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:25
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 94.39, 'vibration': 9.96} | Fault Score: 8.8 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 34.75, 'flow_rate': 14.27} | Fault Score: 1.91 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 27.07, 'oil_temperature': 65.64} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 24.11, 'voltage': 196.37} | Fault Score: 7.26 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 1.26, 'belt_speed': 28.26} | Fault Score: 1.35 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:26
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 56.13, 'vibration': 1.7} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 62.99, 'flow_rate': 28.29} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 57.29, 'oil_temperature': 47.84} | Fault Score: 4.1 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 26.99, 'voltage': 245.45} | Fault Score: 2.64 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 9.73, 'belt_speed': 95.99} | Fault Score: 5.46 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:27
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 63.94, 'vibration': 2.81} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 31.77, 'flow_rate': 38.86} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 55.2, 'oil_temperature': 92.23} | Fault Score: 4.85 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 23.1, 'voltage': 214.36} | Fault Score: 0.76 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 3.6, 'belt_speed': 43.6} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:20:28
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 73.89, 'vibration': 8.68} | Fault Score: 3.36 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 73.56, 'flow_rate': 37.09} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 56.85, 'oil_temperature': 79.79} | Fault Score: 3.95 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 26.13, 'voltage': 206.33} | Fault Score: 4.95 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 2.68, 'belt_speed': 52.46} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:29
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 84.23, 'vibration': 3.42} | Fault Score: 0.85 | Status: FAULT | Faults: ['High motor temperature']
+System: Cooling System | Readings: {'temperature': 61.56, 'flow_rate': 36.22} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 54.29, 'oil_temperature': 91.49} | Fault Score: 4.39 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 18.69, 'voltage': 224.96} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 5.34, 'belt_speed': 34.13} | Fault Score: 0.17 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Hydraulic System
+============================================================
+
+Timestamp: 2026-10-10 16:20:30
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 68.44, 'vibration': 7.28} | Fault Score: 0.56 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 49.6, 'flow_rate': 24.02} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 51.18, 'oil_temperature': 68.68} | Fault Score: 2.06 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 24.69, 'voltage': 212.21} | Fault Score: 2.27 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 1.96, 'belt_speed': 62.09} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:31
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 69.72, 'vibration': 2.67} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 73.12, 'flow_rate': 18.15} | Fault Score: 0.62 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 34.5, 'oil_temperature': 76.97} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 17.22, 'voltage': 241.58} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 2.96, 'belt_speed': 86.89} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Cooling System
+============================================================
+
+Timestamp: 2026-10-10 16:20:32
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 71.67, 'vibration': 2.47} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Cooling System | Readings: {'temperature': 39.27, 'flow_rate': 39.69} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Hydraulic System | Readings: {'pressure': 37.92, 'oil_temperature': 53.0} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Electrical System | Readings: {'current': 28.77, 'voltage': 199.69} | Fault Score: 8.49 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 3.99, 'belt_speed': 22.98} | Fault Score: 2.4 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Electrical System
+============================================================
+
+Timestamp: 2026-10-10 16:20:33
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 66.54, 'vibration': 7.89} | Fault Score: 1.78 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 81.2, 'flow_rate': 44.17} | Fault Score: 1.24 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 45.68, 'oil_temperature': 97.68} | Fault Score: 2.76 | Status: FAULT | Faults: ['Excessive hydraulic pressure', 'Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 23.71, 'voltage': 215.23} | Fault Score: 0.86 | Status: FAULT | Faults: ['Excessive electrical current']
+System: Conveyor System | Readings: {'vibration': 8.64, 'belt_speed': 82.25} | Fault Score: 3.28 | Status: FAULT | Faults: ['Excessive conveyor vibration']
+Highest Priority System: Conveyor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:34
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 88.42, 'vibration': 9.61} | Fault Score: 6.9 | Status: FAULT | Faults: ['High motor temperature', 'Excessive vibration']
+System: Cooling System | Readings: {'temperature': 65.83, 'flow_rate': 18.79} | Fault Score: 0.4 | Status: FAULT | Faults: ['Low coolant flow']
+System: Hydraulic System | Readings: {'pressure': 27.81, 'oil_temperature': 95.32} | Fault Score: 2.06 | Status: FAULT | Faults: ['Hydraulic oil overheating']
+System: Electrical System | Readings: {'current': 9.7, 'voltage': 228.6} | Fault Score: 0 | Status: NORMAL | Faults: []
+System: Conveyor System | Readings: {'vibration': 5.7, 'belt_speed': 39.22} | Fault Score: 0 | Status: NORMAL | Faults: []
+Highest Priority System: Motor System
+============================================================
+
+Timestamp: 2026-10-10 16:20:35
+------------------------------------------------------------
+System: Motor System | Readings: {'temperature': 59.19, 'vibration': 9.68} | Fault Score: 5.36 | Status: FAULT | Faults: ['Excessive vibration']
+System: Cooling System | Readings: {'temperature': 76.56, 'flow_rate': 48.93} | Fault Score: 0.31 | Status: FAULT | Faults: ['Cooling temperature too high']
+System: Hydraulic System | Readings: {'pressure': 57.15, 'oil_temperature': 78.08} | Fault Score: 4.05 | Status: FAULT | Faults: ['Excessive hydraulic pressure']
+System: Electrical System | Readings: {'current': 27.52, 'voltage': 214.06} | Fault Score: 3.07 | Status: FAULT | Faults: ['Excessive electrical current', 'Abnormal voltage']
+System: Conveyor System | Readings: {'vibration': 1.23, 'belt_speed': 23.24} | Fault Score: 2.35 | Status: FAULT | Faults: ['Conveyor belt running slowly']
+Highest Priority System: Motor System
+============================================================
