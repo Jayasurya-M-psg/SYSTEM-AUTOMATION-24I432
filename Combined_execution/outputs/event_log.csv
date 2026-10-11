@@ -1,0 +1,2 @@
+timestamp,temperature,pressure,vibration,current,rpm,csv_source,dataset_label,rule_state,ml_state,nlp_state,decision,operator_comment,action,authenticated_user
+2026-10-11T16:51:06,75.88,47.08,4.7,20.14,2005.0,Day-2,WARNING,NORMAL,WARNING,WARNING,WARNING,Motor is overheating and vibration is high,Log event only,admin
